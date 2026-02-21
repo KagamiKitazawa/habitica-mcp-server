@@ -13,7 +13,7 @@ import { z } from 'zod';
 import { setLanguage, t } from './i18n.js';
 
 // Habitica API 基础配置
-const HABITICA_API_BASE = 'https://habitica.com/api/v3';
+const HABITICA_API_BASE = 'https://habitica.mewtype.com/api/v3';
 
 // 验证环境变量
 const HABITICA_USER_ID = process.env.HABITICA_USER_ID;
